@@ -75,7 +75,7 @@ font-size: 14px;
 transition: 0.5s;
 }
 .btn-primary:hover{
-background-color: orchid;
+background-color: #01ACFD;
 }
 .menu{
 font-size: 24px;
@@ -84,6 +84,13 @@ display: none;
 .nav-link{
 font-size: 20px;
 font-weight: 800;
+transition: 0.5s;
+}
+.nav-link:hover{
+background-color: #8700FF;
+color: white;
+padding: 20px 20px;
+border-radius: 8px;
 }
 
 /* navbar-section-End */
@@ -96,6 +103,16 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+.marquee{
+color: red;
+font-size: 2em;
+}
+.admission{
+color: chartreuse;
+}
+.Discount{
+color: cyan;
+}
 .banner-button{
 width: 197px;
 background-color: black;
@@ -107,7 +124,7 @@ margin-top: 24px;
 transition: 0.5s;
 }
 .banner-button:hover{
-background-color: magenta;
+background-color: orange;
 }
 .Empowering{
 color: orange;
@@ -161,16 +178,29 @@ text-align: center;
 color: #64C8FF;
 border: none;
 background-color: white;
+transition: 0.5s;
 }
+.card-button-1:hover{
+color: crimson;
+}
+
 .card-button-2{
 color: #F0AA00;
 border: none;
 background-color: white;
+transition: 0.5s;
+}
+.card-button-2:hover{
+color: aqua;
 }
 .card-button-3{
 color: #8700FF;
 border: none;
 background-color: white;
+transition: 0.5s;
+}
+.card-button-3:hover{
+color: chartreuse;
 }
 .arrow-section{
 display: flex;
