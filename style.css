@@ -1,0 +1,77 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+/* navbar-section-start */
+/* colors */
+.Home{
+color: orange;
+}
+.About{
+color: skyblue;
+}
+.facilities{
+color: #05D4DF;
+}
+.admission{
+color: #5D58EF;
+}
+.navbar{
+width: 100%;
+display: flex;
+justify-content: space-around;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.nav-links{
+display: flex;
+justify-content: space-between;
+}
+.unordered-list{
+display: flex;
+align-items: center;
+}
+.nav-item{
+list-style-type: none;
+margin-right: 32px;
+}
+.nav-link{
+text-decoration: none;
+}
+.nav-button{
+display: flex;
+align-items: center;
+}
+.menu{
+display: flex;
+align-items: center;
+}
+.logo-name{
+color: black;
+font-size: 32px;
+font-weight: 800;
+}
+.btn-primary{
+padding: 10px 10px;
+width: 196px;
+border-radius: 12px;
+border: none;
+background-color: orange;
+color: white;
+font-weight: 800;
+font-size: 14px;
+}
+.menu{
+font-size: 24px;
+display: none;
+}
+.nav-link{
+font-size: 20px;
+font-weight: 800;
+}
+
+/* navbar-section-End */
+
+/* banner-section-start */
