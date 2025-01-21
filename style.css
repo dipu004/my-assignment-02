@@ -75,3 +75,49 @@ font-weight: 800;
 /* navbar-section-End */
 
 /* banner-section-start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media For small Devices */
+@media screen and (max-width: 576px){
+.navar{
+width: 100%;
+justify-content:space-between;
+}
+.menu{
+display: block;
+display: flex;
+align-items: center;
+font-size: 30px;
+width: 30px;
+}
+.logo-img img{
+width: 46px;
+font-size: 20px;
+}
+.logo-name{
+display: none;
+}
+.unordered-list{
+display: none;
+}
+.nav-button{
+display: none;
+}
+/* navbar-section-End */
+}
