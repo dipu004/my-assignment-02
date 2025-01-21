@@ -164,12 +164,47 @@ color: #8700FF;
 border: none;
 background-color: white;
 }
+.arrow-section{
+display: flex;
+justify-content: center;
+margin-top: 80px;
+margin-bottom: 60px;
+gap: 13px;
+}
+.arrow-1 a{
+font-size: 30px;
+border: none;
+border-radius: 50%;
+padding: 14px;
+background-color: orange;
+color: white;
+}
+.arrow-2 a{
+font-size: 30px;
+border: none;
+border-radius: 50%;
+padding: 14px;
+background-color: orange;
+color: white;
+}
 
 /* standard-curriculum-card-section-End */
 
 /* Our-stories-section-start */
 .our-stories{
 justify-items: center;
+}
+.stories-button{
+background-color: #000000;
+border: none;
+color: white;
+padding: 10px 10px;
+width: 197px;
+margin-top: 80px;
+margin-bottom: 60px;
+border-radius: 12px;
+font-size: 16px;
+font-weight: bold;
 }
 .column-1{
  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -439,7 +474,3 @@ flex-direction: column;
 flex-direction: column;
 }
 }
-
-
-
-
