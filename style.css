@@ -243,6 +243,11 @@ margin-bottom: 60px;
 border-radius: 12px;
 font-size: 16px;
 font-weight: bold;
+transition: 0.5s;
+}
+.stories-button:hover{
+background-color: violet;
+color: #FFFFFF;
 }
 .column-1{
  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -258,6 +263,11 @@ border: none;
 padding: 20px;
 border-radius: 24px;
 color: white;
+transition: 0.5s;
+}
+.column-button:hover{
+background-color: gold;
+color: black;
 }
 .column-title{
 padding: 15px;
@@ -335,6 +345,10 @@ border-radius: 47px;
 border: none;
 padding: 20px;
 color: white;
+transition: 0.5s;
+}
+.btn-1:hover{
+background-color: darkblue;
 }
 .btn-2{
 position: relative;
@@ -345,6 +359,11 @@ border-radius: 47px;
 border: none;
 padding: 20px;
 color: white;
+transition: 0.5s;
+}
+.btn-2:hover{
+background-color:chartreuse;
+color: black;
 }
 .btn-3{
 position: relative;
@@ -355,6 +374,10 @@ border-radius: 47px;
 border: none;
 padding: 20px;
 color: white;
+transition: 0.5s;
+}
+.btn-3:hover{
+background-color: chocolate;
 }
 .btn-4{
 position: relative;
@@ -365,6 +388,11 @@ border-radius: 47px;
 border: none;
 padding: 20px;
 color: white;
+transition: 0.5s;
+}
+.btn-4:hover{
+background-color: yellow;
+color: #000000;
 }
 .box-description{
 padding: 20px;
