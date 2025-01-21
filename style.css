@@ -2,6 +2,16 @@
 margin: 0px;
 padding: 0px;
 }
+html{
+overflow-x: hidden;
+}
+body{
+overflow-x: hidden;
+}
+body{
+background-image: url(assets/bg.png);
+background-position: center;
+}
 /* navbar-section-start */
 /* colors */
 .Home{
@@ -75,7 +85,38 @@ font-weight: 800;
 /* navbar-section-End */
 
 /* banner-section-start */
-
+.banner-container{
+width: 1158.61px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.banner-button{
+width: 197px;
+background-color: black;
+color: white;
+padding: 10px 10px;
+border-radius: 12px;
+border: none;
+margin-top: 24px;
+}
+.Empowering{
+color: orange;
+}
+.vision{
+color: skyblue;
+}
+.banner-title{
+font-size: 56px;
+font-weight: bold;
+}
+.banner-description{
+color: black;
+font-size: 20px;
+margin-top: 24px;
+}
+/* banner-section-End */
 
 
 
@@ -120,4 +161,21 @@ display: none;
 display: none;
 }
 /* navbar-section-End */
+
+/* banner-section-Start */
+.banner-container{
+flex-direction:column-reverse;
+width: 100%;
+padding: 20px;
 }
+.banner-img img{
+width: 90%;
+}
+.banner-button{
+align-content: center;
+}
+.banner-content{
+text-align: center;
+}
+}
+/* banner-section-End */
