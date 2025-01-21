@@ -459,6 +459,8 @@ margin-right: 16px;
 height: 150px;
 width: 150px;
 padding: 10px;
+margin-left: -28px;
+mix-blend-mode: color-burn;
 }
 /* footer-container-section-End */
 
